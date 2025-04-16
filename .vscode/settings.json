@@ -1,0 +1,6 @@
+{
+  "remote.extensionKind": {
+    "amazonwebservices.aws-toolkit-vscode": ["ui"],
+    "amazonwebservices.amazon-q-vscode": ["ui"]
+  }
+}
