@@ -1,0 +1,5 @@
+packages:
+  - infra
+  - ui
+onlyBuiltDependencies:
+  - sharp

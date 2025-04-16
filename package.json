@@ -1,0 +1,31 @@
+{
+  "name": "serverless-webapp-demo",
+  "version": "1.0.0",
+  "description": "A small serverless webapp demo on AWS",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws-abaschen/serverless-webapp-demo.git"
+  },
+  "keywords": [
+    "aws",
+    "serverless",
+    "aws-cdk",
+    "cdk",
+    "dynamodb",
+    "lambda"
+  ],
+  "author": "abaschen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aws-abaschen/serverless-webapp-demo/issues"
+  },
+  "homepage": "https://github.com/aws-abaschen/serverless-webapp-demo#readme",
+  "workspaces": [
+    "infra", "ui"
+  ]
+}
